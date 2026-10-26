@@ -1,0 +1,19 @@
+# 站点基础信息
+title: puyuchun136的博客
+description: 网络安全实验学习记录
+author: puyuchun136
+
+# 站点地址，保持默认即可
+baseurl: ""
+url: "https://puyuchun136.github.io"
+
+# 使用GitHub官方默认主题，开箱即用
+theme: minima
+
+# 基础功能插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 文章链接生成规则
+permalink: /posts/:year-:month-:day-:title/
